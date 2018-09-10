@@ -24,7 +24,7 @@
         android:layout_toRightOf="@+id/billAmountLabel"
         android:ems="8"
         android:inputType="numberDecimal"
-        android:text="@string/bill_amount"
+        android:hint="@string/bill_amount"
         android:textSize="20sp" >
 
         <requestFocus />

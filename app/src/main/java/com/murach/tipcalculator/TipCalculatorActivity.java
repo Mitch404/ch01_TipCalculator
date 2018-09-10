@@ -82,11 +82,11 @@ implements OnEditorActionListener, OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
         case R.id.percentDownButton:
-            tipPercent = tipPercent - .01f;
+            tipPercent = tipPercent - .05f;
             calculateAndDisplay();
             break;
         case R.id.percentUpButton:
-            tipPercent = tipPercent + .01f;
+            tipPercent = tipPercent + .05f;
             calculateAndDisplay();
             break;
         }
